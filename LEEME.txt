@@ -1,0 +1,19 @@
+MI PRESUPUESTO DOMÉSTICO — ANDROID
+
+Contenido:
+- index.html: aplicación
+- manifest.json: configuración de instalación
+- sw.js: caché para uso offline después de la primera visita
+- icon-192.png e icon-512.png: iconos
+
+IMPORTANTE:
+Para que Chrome permita instalarla como aplicación, estos archivos deben estar publicados juntos en la raíz de una dirección HTTPS. El ZIP por sí solo no instala la aplicación.
+
+Una vez publicada:
+1. Abre la dirección HTTPS en Chrome en tu Android.
+2. Abre el menú ⋮ y elige «Instalar aplicación» o «Añadir a pantalla de inicio».
+3. Abre la app desde el icono.
+
+Los datos se guardan en el almacenamiento local de ese navegador/dispositivo. Normalmente permanecen al cerrar y volver a abrir la app, pero no se sincronizan en la nube. Exporta copias JSON desde «Histórico y copia». Si borras los datos del navegador o cambias de dispositivo, necesitarás importar la copia.
+
+Para publicar gratuitamente se puede usar GitHub Pages, pero hace falta una cuenta y subir los cinco archivos.
